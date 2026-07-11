@@ -17,8 +17,15 @@
 
 // === strict check
 
-console.log("2" == 2);
-console.log("2" === 2);
+// console.log("2" == 2);//true 
+// console.log("2" === 2);//false
 
 
+// types of data types 
+//premitive
 
+//7 types : string,number,boolean,null,undefined,symbol,BigInt
+
+//Reference(Non Premitive)
+
+//Array,Object,Functions
