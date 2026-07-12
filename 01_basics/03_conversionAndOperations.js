@@ -71,12 +71,12 @@ let str3 = str1 + str2;
 // console.log(1+2 +"2");//output is 32
 
 // console.log(+true)//output is 1
-console.log(+""); //output is 0
+// console.log(+""); //output is 0
 
- let  gameCounter =100;
- gameCounter++;
+//  let  gameCounter =100;
+//  gameCounter++;
 
- console.log(gameCounter);
+//  console.log(gameCounter);
 
 
 
