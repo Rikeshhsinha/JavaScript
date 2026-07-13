@@ -24,3 +24,13 @@ myArr.join()//it change the array into string , agar pata karna ho to typeof se 
 myArr.slice(1,3)//include 12 and exclude 3 index
 
 myArr.splice(1,3);//it include 1 2 3 and also manupulate the original array
+
+//Example
+
+const num =[1,2,3,4,5,6,7,8,9];
+
+const newNum = num.splice(1,4);
+
+console.log(num);
+
+console.log(newNum);
