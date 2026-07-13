@@ -33,8 +33,8 @@ const jsUser ={
     jsUser.email ="rikeshsinha@gmail.com";
     console.log(jsUser);
 
-    Object.freeze(jsUser);
+    Object.freeze(jsUser);// it prevent to overwrite in object
 
     jsUser.email ="riku@gmail.com"
 
-       console.log(jsUser);
+    console.log(jsUser);
