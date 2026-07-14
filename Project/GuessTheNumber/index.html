@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+    </div>
+
+    <div class="wrapper">
+
+        <div class="icon">🏆 </div>
+
+        <h1>Number Guessing Game</h1>
+
+        <p class="description">
+            Try and guess a random number between
+            <span>1</span> and
+            <span>100</span>
+        </p>
+
+        <p class="attempt">
+            You have
+            <span>10</span>
+            attempts.
+        </p>
+
+        <hr>
+
+        <label id="guess">Guess a Number</label>
+
+        <input type="number" id="guessField" placeholder="Enter your guess">
+
+        <input type="submit" id="subt" value="Submit Guess">
+
+        <div class="resultParas">
+
+            <div class="card">
+
+                <i class="fa-solid fa-clock-rotate-left"></i>
+
+                <div>
+                    <h3>Previous Guesses</h3>
+                    <p class="guesses"></p>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-bullseye"></i>
+
+                <div>
+                    <h3>Remaining</h3>
+                    <p>
+                        <span class="lastResult">10</span>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="lowOrHi"><h1></h1></div>
+        <div class="newGame"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
