@@ -61,3 +61,24 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 
 
+const course = {
+
+    coursename: "Btech",
+    price:"300000",
+    courseInstructor:"Bhumika Dewangan"
+
+}
+
+// how to print value
+
+// 1.course.courseInstructor 
+
+ const {courseInstructor: instructor} = course
+
+//   const {courseInstructor: instructor} = course
+//isme humlog destruct kar sakte hai value koo
+
+ console.log(courseInstructor );
+ 
+ console.log(instructor);
+ 
