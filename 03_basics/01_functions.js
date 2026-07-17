@@ -14,4 +14,4 @@ function addTwoNum(num1,num2){
     
 }
 
-addTwoNum(2,3)
+addTwoNum(2,3);
