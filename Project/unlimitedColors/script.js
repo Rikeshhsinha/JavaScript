@@ -13,6 +13,7 @@ const randomColor = function () {
   return color;
 };
 
+
 let intervelId;
 
 const startChangeColor = function () {
