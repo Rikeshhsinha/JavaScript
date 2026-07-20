@@ -25,7 +25,7 @@ A simple and interactive **Number Guessing Game** built using **HTML, CSS, and J
 ## 📂 Project Structure
 
 ```
-Number-Guessing-Game/
+Guess The Number/
 │── index.html
 │── style.css
 │── script.js
@@ -45,12 +45,6 @@ git clone https://github.com/your-username/Number-Guessing-Game.git
 2. Open the project folder.
 
 3. Run `index.html` in your browser.
-
----
-
-##  Preview
-
-(Add a screenshot here)
 
 ---
 
