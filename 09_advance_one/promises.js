@@ -112,22 +112,38 @@ async function consumePromiseFive(){
 consumePromiseFive();
 
 
-// async function getAllUser() {
-//    try {
-//     const responce = await fetch('https://jsonplaceholder.typicode.com/users');
+ async function getAllUser() {
+    try {
+    const responce = await fetch('https://jsonplaceholder.typicode.com/users');
 
-//    const data = await responce.json()
-//     console.log(data);
+    const data = await responce.json()
+     console.log(data);  
+    } catch (error) {
+    console.log("Error");
     
-//    } catch (error) {
-//     console.log("Error");
-    
-//    }
-// }
+    }
+}
+getAllUser();
 
-// getAllUser();
 
+
+
+
+
+// how we use then and catch.
 
 fetch('https://jsonplaceholder.typicode.com/users')
-.then()
-.catch()
+.then((responce)=>{
+
+    return responce.json();
+
+})
+.then((data)=>{
+
+    console.log(data);
+    
+
+})
+.catch((responce)=>{
+    console.log("Error")
+})
